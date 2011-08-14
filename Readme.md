@@ -5,7 +5,7 @@
     dMP dMP  VMMMP" dMMMMMP dMP dMP dMMMMMP  VMMMP" dMMMMMP
 
 
-"Aserejé ja de jé de jebe, tu de jebere sebiunouba, majabi an de bugui an de buididip"
+"Aserejé ja de jé de jebe, tu de jebere sebiunouba, majabi an de bugui an de buididipí"
 
 ## Description
 
