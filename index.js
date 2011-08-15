@@ -1,1 +1,1 @@
-module.exports.model = require('./lib/asereje');
+module.exports = require('./lib/asereje');
