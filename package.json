@@ -1,13 +1,13 @@
 {
   "name": "asereje",
   "description": "Asereje is a library that builds your assets on demand",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Pau Ramon <masylum@gmail.com>",
   "keywords": ["build", "assets", "css", "javascript"],
   "main": "./index",
   "dependencies": {
     "uglify-js": "1.0.6",
-    "funk": "1.0.1",
+    "funk": "1.5.0",
     "sqwish": "0.2.0",
     "underscore": "1.1.6"
   },
