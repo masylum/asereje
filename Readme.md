@@ -28,8 +28,8 @@ asereje.config({
   active: process.env.NODE_ENV === 'production'        // enable it just for production
 , js_globals: ['lib/jquery', 'global', 'underscore']   // js files that will be present always
 , css_globals: ['reset', 'global']                     // css files that will be present always
-, js_path: _dirname + '/public/javascripts'            // javascript folder path
-, css_path: _dirname + '/public/css'                   // css folder path
+, js_path: __dirname + '/public/javascripts'           // javascript folder path
+, css_path: __dirname + '/public/css'                  // css folder path
 });
 ```
 
@@ -40,7 +40,7 @@ res.render('users/index', {
   css: asereje.css(['users', users/index]) // => ['reset', 'global', 'users', 'users/index']
 });
 
-... it builds the files and the next requests will return:
+// ... it builds the files and the next requests will return:
 
 res.render('users/index', {
   css: asereje.css(['users', users/index]) // => ['dist/f330099956c144c090b06f6d4bae8770', 'dist/caa6925553b03e049eeda6f70da9dc1a']
@@ -50,9 +50,8 @@ res.render('users/index', {
 ``` jade
 html
   head
-    -if(css)
-      -each file in css
-        link(rel= 'stylesheet', href= '/css/' + file + '.css' )
+    -each file in css
+      link(rel= 'stylesheet', href= '/css/' + file + '.css' )
   ...
 ```
 
