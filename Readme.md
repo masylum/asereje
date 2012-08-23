@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/masylum/asereje.png)](http://travis-ci.org/masylum/asereje)
         .aMMMb  .dMMMb  dMMMMMP dMMMMb  dMMMMMP dMMMMMP dMMMMMP
        dMP"dMP dMP" VP dMP     dMP.dMP dMP         dMP dMP
       dMMMMMP  VMMMb  dMMMP   dMMMMK" dMMMP       dMP dMMMP
